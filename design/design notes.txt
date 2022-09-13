@@ -1,0 +1,5 @@
+TO Dear developer.
+
+1. Most of the content and images will be changed later. 
+2. The website will be developed in two responsive layouts. Desktop and mobile.
+3. Bootstrap grid system would be the standard grid system of the website.
