@@ -1,0 +1,21 @@
+body {
+      background-color: #000000;
+      overflow-x: hidden;
+      color: #ffffff;
+}
+
+::-webkit-scrollbar {
+      display: none;
+}
+
+
+
+/* Navigation bar items */
+.menu-bar {
+      text-align: end;
+      float: right;
+}
+
+.menu-head-item {
+      width: fit-content;
+}

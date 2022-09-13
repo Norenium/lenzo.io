@@ -1,0 +1,14 @@
+#g-12 {
+      position: absolute;
+      z-index: -1;
+}
+
+#g-12-img {
+      position: absolute;
+      left: 26vw;
+      top: -36vh;
+}
+
+.test {
+      border: 1px red solid;
+}

@@ -3,3 +3,73 @@ TO Dear developer.
 1. Most of the content and images will be changed later. 
 2. The website will be developed in two responsive layouts. Desktop and mobile.
 3. Bootstrap grid system would be the standard grid system of the website.
+
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 980px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pastil Blue: rgb(42, 208, 210)
+
+## Typography
+
+### Home
+
+#### Headings
+
+- Family: Kameron
+- Weights: Regular, Bold
+- Size: 80px
+
+#### Body
+
+- Family: Inter
+- Weights: Light
+- Size: 16px
+
+#### Body2
+
+- Family: Jomolhari
+- Weights: Regular
+- Size: 24px
+
+
+### Cards
+
+#### Headings
+
+- Family: Kadawa
+- Weights: Bold
+- Size: 36px
+
+#### Body
+
+- Family: Kadawa
+- Weights: Bold
+- Size: 36px
+
+
+
+### Presale
+
+#### Headings
+
+- Family: Inter
+- Weights: Black
+- Size: 84
+
+#### Body
+
+- Family: Roboto
+- Weights: Regular
+- Size: 32px
+
