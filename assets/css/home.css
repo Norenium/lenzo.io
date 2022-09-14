@@ -44,9 +44,24 @@
       src: url("../fonts/jomolhari/Jomolhari-Regular.ttf");
       format: ttf;
 }
+@font-face{
+      font-family: inter-light;
+      src: url("../fonts/inter/Inter-Light.ttf");
+      format: ttf;
+}
+@font-face{
+      font-family: roboto;
+      src: url("../fonts/roboto/Roboto-Regular.ttf");
+      formar: ttf;
+}
 .menu-head-item{
       font-family: jomolhari;
       font-size: 16px;
+}
+.head-content p{
+      font-family: inter-light;
+      font-weight: 300;
+      color: gray;
 }
 
 h1 {
@@ -57,10 +72,10 @@ h1 {
 .btn1 {
       border-radius: 30px !important;
       padding: 10px 60px !important;
-      display: inline-block;
       background-color: rgb(42, 208, 210);
       color: white;
       margin-right: 15px;
+      font-family: roboto;
 }
 
 .btn2 {
@@ -69,12 +84,9 @@ h1 {
       border-color: rgb(42, 208, 210);
       background-color: #000000;
       color: white;
+      font-family: roboto;
 }
 
-.head-content p {
-      color: gray;
-
-}
 .bx{
        font-size: 30px;  
 }
@@ -88,4 +100,48 @@ ul li{
       background-color: #00000085; 
       padding: 7px;
 }
+.li-a::before{
+      content: '';
+      position: absolute;
+      top: 93vh;
+      left: 3.5vw;
+      bottom: 0;
+      width: 1px;
+      height: 4%;
+      background-color: #fff;
+      z-index: -1; 
+      
+}
+
+.li-b::before{
+      content: '';
+      position: absolute;
+      top: 101vh;
+      left: 3.5vw;
+      bottom: 0;
+      width: 1px;
+      height: 4%;
+      background-color: #fff;
+      z-index: -1; 
+      
+}
+
+.li-c::before{
+      content: '';
+      position: absolute;
+      top: 109vh;
+      left: 3.5vw;
+      bottom: 0;
+      width: 1px;
+      height: 4%;
+      background-color: #fff;
+      z-index: -1; 
+      
+}
+.social-icons{
+      
+}
+
+
+
 
