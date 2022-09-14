@@ -12,8 +12,10 @@
 .test {
       border: 1px red solid;
 }
-.logo{
-width: 10vw;
+.logo {
+     width: 9vw;
+
+     
 }
 
 .head-content span {
@@ -36,6 +38,15 @@ width: 10vw;
       font-family: kameron-Bold;
       src: url("../fonts/kameron/Kameron-Bold.ttf");
       format: ttf;
+}
+@font-face{
+      font-family: jomolhari;
+      src: url("../fonts/jomolhari/Jomolhari-Regular.ttf");
+      format: ttf;
+}
+.menu-head-item{
+      font-family: jomolhari;
+      font-size: 28px;
 }
 
 h1 {
@@ -73,3 +84,8 @@ ul{
 ul li{
       margin-bottom: 3vh;
 }
+.nav{
+      /* background-color: #000000; */
+      padding: 4px;
+}
+
