@@ -12,23 +12,35 @@
 .test {
       border: 1px red solid;
 }
-.head-content span{
-      color: rgb(42, 208, 210);
-}
-.head-content{
-      margin-top: 20vh;
-}
-@font-face{
-      font-family: kameron; 
-      src: url("assest/fonts/");
-      format: ttf;
 
+.head-content span {
+      color: rgb(42, 208, 210);
+      font-family: 'Kameron-Bold', serif;
 }
-h1{
+
+.head-content {
+      margin-top: 20vh;
+      font-family: 'Kameron', serif;
+}
+
+@font-face {
+      font-family: kameron;
+      src: url("../fonts/kameron/Kameron-Regular.ttf");
+      format: ttf;
+}
+
+@font-face {
+      font-family: kameron-Bold;
+      src: url("../fonts/kameron/Kameron-Bold.ttf");
+      format: ttf;
+}
+
+h1 {
       font-family: kameron;
       font-size: 80px;
 }
-.btn1{
+
+.btn1 {
       border-radius: 30px !important;
       padding: 10px 60px !important;
       display: inline-block;
@@ -36,14 +48,16 @@ h1{
       color: white;
       margin-right: 15px;
 }
-.btn2{
+
+.btn2 {
       border-radius: 30px;
       padding: 10px 60px;
       border-color: rgb(42, 208, 210);
       background-color: #000000;
       color: white;
 }
-.head-content p{
+
+.head-content p {
       color: gray;
 
 }
