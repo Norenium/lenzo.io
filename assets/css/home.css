@@ -20,7 +20,7 @@
 }
 @font-face{
       font-family: kameron; 
-      src: url("assest/");
+      src: url("assest/fonts/");
       format: ttf;
 
 }
@@ -46,4 +46,13 @@ h1{
 .head-content p{
       color: gray;
 
+}
+.bx{
+      font-size: 30px;
+}
+ul{
+      list-style: none;
+}
+ul li{
+      margin-bottom: 3vh;
 }
