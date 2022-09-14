@@ -12,6 +12,9 @@
 .test {
       border: 1px red solid;
 }
+.logo{
+width: 10vw;
+}
 
 .head-content span {
       color: rgb(42, 208, 210);
