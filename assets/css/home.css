@@ -46,7 +46,7 @@
 }
 .menu-head-item{
       font-family: jomolhari;
-      font-size: 28px;
+      font-size: 16px;
 }
 
 h1 {
@@ -85,7 +85,7 @@ ul li{
       margin-bottom: 3vh;
 }
 .nav{
-      /* background-color: #000000; */
-      padding: 4px;
+      background-color: #00000085; 
+      padding: 7px;
 }
 
