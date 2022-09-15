@@ -102,6 +102,7 @@ h1 {
 }
 .img2-2{
       margin-top: -70vh;
+      margin-left: -2vw;
       width: 39vw;
       height: 55vh;
       
@@ -117,5 +118,29 @@ h1 {
 .card-3,
 .card-4{
       background-color: cadetblue;
-      border-radius: 30px;
+      border-radius: 30px; 
+}
+p,h3,h2{
+      text-transform: capitalize;
+}
+.part-3 h3{
+      font-family: kadwa-bold-700;
+      font-weight: 700;
+} 
+.part-3 p{
+      font-family: kadwa-regular-400;
+}
+@font-face{
+      font-family: kadwa-bold-700;
+      src: url("../fonts/kadwa/Kadwa-Bold.ttf");
+      format: ttf;
+      
+}
+@font-face{
+      font-family: kadwa-regular-400;
+      src: url("../fonts/kadwa/Kadwa-Regular.ttf");
+      formar: ttf;
+}
+.img-3{
+      margin-left: 3vw;
 }
