@@ -108,7 +108,14 @@ h1 {
 }
 .img-bg2{
       margin-top: -35vh;
-      margin-left: -5vw;
+      margin-left: -9vw;
       z-index: -11 !important;
       position: absolute;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4{
+      background-color: cadetblue;
+      border-radius: 30px;
 }
