@@ -29,36 +29,6 @@
       font-family: 'Kameron', serif;
 }
 
-@font-face {
-      font-family: kameron;
-      src: url("../fonts/kameron/Kameron-Regular.ttf");
-      format: ttf;
-}
-
-@font-face {
-      font-family: kameron-Bold;
-      src: url("../fonts/kameron/Kameron-Bold.ttf");
-      format: ttf;
-}
-
-@font-face {
-      font-family: jomolhari;
-      src: url("../fonts/jomolhari/Jomolhari-Regular.ttf");
-      format: ttf;
-}
-
-@font-face {
-      font-family: inter-light;
-      src: url("../fonts/inter/Inter-Light.ttf");
-      format: ttf;
-}
-
-@font-face {
-      font-family: roboto;
-      src: url("../fonts/roboto/Roboto-Regular.ttf");
-      formar: ttf;
-}
-
 .menu-head-item {
       font-family: jomolhari;
       font-size: 16px;
@@ -97,13 +67,6 @@ h1 {
       font-size: 30px;
 }
 
-ul {
-      list-style: none;
-}
-
-ul li {
-      margin-bottom: 3vh;
-}
 
 .nav {
       background-color: #00000085;
@@ -115,45 +78,6 @@ ul li {
       font-size: 40px;
 }
 
-.li-a::before {
-      content: '';
-      position: absolute;
-      top: 93vh;
-      left: 3.5vw;
-      bottom: 0;
-      width: 1px;
-      height: 4%;
-      background-color: #fff;
-      z-index: -1;
-
-}
-
-.li-b::before {
-      content: '';
-      position: absolute;
-      top: 101vh;
-      left: 3.5vw;
-      bottom: 0;
-      width: 1px;
-      height: 4%;
-      background-color: #fff;
-      z-index: -1;
-
-}
-
-.li-c::before {
-      content: '';
-      position: absolute;
-      top: 109vh;
-      left: 3.5vw;
-      bottom: 0;
-      width: 1px;
-      height: 4%;
-      background-color: #fff;
-      z-index: -1;
-
-}
-
 .social-icons {
 
       background-color: rgba(255, 255, 255, 0.08);
@@ -162,8 +86,5 @@ ul li {
       text-align: center;
       margin: 2vw;
       padding: 1vw;
-}
-
-.social-icons li {
-      margin-bottom: 0px;
+      list-style: none;
 }
