@@ -88,3 +88,20 @@ h1 {
       padding: 1vw;
       list-style: none;
 }
+.content-2{
+      margin-top: 10vh;
+}
+.content-2 h2{
+      font-family: kameron-bold;
+}
+.content-2 span{
+      color: rgb(42, 208, 210);
+}
+.content-2 p{
+      font-family: kameron;
+}
+.img2-2{
+      margin-top: -70vh;
+      width: 39vw;
+      height: 55vh;
+}
