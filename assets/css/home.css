@@ -40,7 +40,7 @@
       color: gray;
 }
 
-h1 {
+.part1-h1{
       font-family: kameron;
       font-size: 80px;
 }
@@ -124,11 +124,13 @@ h1 {
 .title-part3{
       font-family: kadwa-bold-700;
       font-weight: 700;
-      text-align: center;
       margin-top: -20vh;
       position: absolute;
-      
+      max-width: 100%;
 } 
+.test-h3{
+       width: 80%; 
+}
 
 .text-part3{
       font-family: kadwa-regular-400;
@@ -175,4 +177,12 @@ h1 {
       background-color: #000000;
       color: white;
       font-family: roboto;
+}
+.hight-30vh{
+      height: 30vh;
+}
+.part4-h1{
+      font-size: 60px;
+      /* font-family: inter; */
+      font-weight: 800;
 }
