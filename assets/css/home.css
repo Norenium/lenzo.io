@@ -100,7 +100,7 @@ h1 {
 .content-2 p{
       font-family: kameron;
 }
- 
+  
 
 .img-2{
       width: 53vw;
@@ -113,22 +113,26 @@ h1 {
       z-index: -11 !important;
       position: absolute;
 }
-.card-1,
-.card-2,
-.card-3,
-.card-4{
+.card-p3{
       background-color: rgba(255, 255, 255, 0.08);
       border-radius: 30px; 
 }
-p,h3,h2{
+.text{
       text-transform: capitalize;
 }
-.part-3 h3{
+
+.title-part3{
       font-family: kadwa-bold-700;
       font-weight: 700;
       text-align: center;
+      margin-top: -20vh;
+      position: absolute;
+      margin-left: 3vw;
 } 
-.part-3 p{
+.title-part3-2{
+      margin-left: 7vw;
+}
+.text-part3{
       font-family: kadwa-regular-400;
       text-align: center;
 }
@@ -144,16 +148,17 @@ p,h3,h2{
       formar: ttf;
 }
 .img-3{
-      margin-left: 3vw;
-      margin-top: -3vh;
+      margin-left: 1.5vw;
+      margin-top: -4vh;
+      width: 30vw;
 } 
 .hotel{
-      width: 17vw;
+      width: 15vw;
       margin-top: -63vh !important;
-      margin-left: 12vw;
+      margin-left: 9vw;
 }
 .town-hall{
-      width: 20vw;
-      margin-top: -70vh;
-      margin-left: 10vw;
+      width: 18vw;
+      margin-top: -65vh;
+      margin-left: 8vw;
 }
