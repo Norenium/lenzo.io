@@ -12,7 +12,9 @@
 .test {
       border: 1px red solid;
 }
-
+.text{
+      text-transform: capitalize;
+}
 .logo {
       width: 9vw;
 
@@ -105,9 +107,9 @@
 
 .img-2{
        width: 53vw; 
-      /* width: 58vw; */
+      /* width: 58vw;  */
       margin-left: -8vw;
-      margin-top: -22vh;
+      margin-top: -22vh; 
 } 
 .img-bg2{
       margin-top: -46vh;
@@ -115,18 +117,32 @@
       z-index: -11 !important;
       position: absolute;
 }
+@font-face{
+      font-family: kadwa-bold-700;
+      src: url("../fonts/kadwa/Kadwa-Bold.ttf");
+      format: ttf;
+      
+}
+@font-face{
+      font-family: kadwa-regular-400;
+      src: url("../fonts/kadwa/Kadwa-Regular.ttf");
+      formar: ttf;
+}
 .card-p3{
       background-color: rgba(255, 255, 255, 0.08);
       border-radius: 30px; 
 }
-.text{
-      text-transform: capitalize;
-}
+.img-3{
+      margin-left: 1.5vw;
+      margin-top: -4vh;
+      width: 30vw;
+} 
+
 
 .title-part3{
       font-family: kadwa-bold-700;
       font-weight: 700;
-      margin-top: -19.5vh;
+      margin-top: -17vh;
       position: absolute;
       max-width: 100%;
 } 
@@ -141,26 +157,16 @@
       font-family: kadwa-regular-400;
       text-align: center;
 }
-@font-face{
-      font-family: kadwa-bold-700;
-      src: url("../fonts/kadwa/Kadwa-Bold.ttf");
-      format: ttf;
-      
-}
-@font-face{
-      font-family: kadwa-regular-400;
-      src: url("../fonts/kadwa/Kadwa-Regular.ttf");
-      formar: ttf;
-}
-.img-3{
-      margin-left: 1.5vw;
-      margin-top: -4vh;
-      width: 30vw;
-} 
-.hotel{
+
+
+/* .hotel{
       width: 15vw;
       margin-top: -63vh !important;
-      margin-left: 9vw;
+      margin-left: 9vw;  
+} */
+.group7{
+      width: 30vw;
+      margin-top: -3vh;
 }
 .town-hall{
       width: 18vw;
