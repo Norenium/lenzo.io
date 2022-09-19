@@ -2,7 +2,7 @@ body{
       max-width: 1440px;
 }
 #g-12 {
-      position: absolute;
+      position: relative;
       z-index: -1;
       /* width: 1300px;  */
       
@@ -12,9 +12,10 @@ body{
 
 #g-12-img {
       position: absolute;
-      left: 14vw; 
-      top: -20vh; 
-      width: 85%;
+      /* left: 14vw; 
+      top: -20vh;    
+       width: 85%;   */
+      width: 100%; 
 
 
 } 
