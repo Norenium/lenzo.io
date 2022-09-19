@@ -1,13 +1,21 @@
+body{
+      max-width: 1440px;
+}
 #g-12 {
       position: absolute;
       z-index: -1;
 }
 
-#g-12-img {
+/* #g-12-img {
       position: absolute;
       left: 26vw;
-      top: -36vh;
-}
+      top: -36vh; 
+
+} */
+ #g-12-img{
+      width: 100%;
+} 
+
 
 .test {
       border: 1px red solid;
@@ -15,10 +23,18 @@
 .text{
       text-transform: capitalize;
 }
+.my-nav{
+      background-color: #00000085;
+      padding: 10px 8.3% 10px 8.3%;
+      position: fixed !important;
+      width: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      max-width: 1440px;
+}
 .logo {
       width: 9vw;
-
-
 }
 
 .head-content span {
