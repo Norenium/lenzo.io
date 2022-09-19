@@ -145,8 +145,6 @@ body{
 .img-bg2{
       z-index: -11 !important;
       position: absolute;
-      /* margin-left: -60vw;
-      margin-top: -2vh; */
       width: 100%;
       
 }
