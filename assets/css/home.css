@@ -109,6 +109,9 @@ body{
       padding: 1vw;
       list-style: none;
 }
+.hight-40vh{
+      height: 40vh;
+}
 .content-2{
       width: 100%; 
       display: flex;
@@ -127,9 +130,7 @@ body{
 .content-2 p{
       font-family: kameron;
 }
-.hight-40vh{
-      height: 40vh;
-}
+
 .parent-img-2{
       /* position: relative; */
       width: 100%; 
@@ -139,7 +140,7 @@ body{
       height: 70%;
 }  
 
-.img-2{
+/* .img-2{ */
       /* position: absolute;  */
        /* width: 53vw;   */
        
@@ -148,12 +149,14 @@ body{
       /* margin-left: -8vw; */
       /* margin-top: -22vh;   */
       
-} 
+/* }  */
+
 .img-bg2{
-      margin-top: -46vh;
-      margin-left: -9vw;
       z-index: -11 !important;
       position: absolute;
+      margin-left: -60vw;
+      margin-top: -2vh;
+      
 }
 @font-face{
       font-family: kadwa-bold-700;
