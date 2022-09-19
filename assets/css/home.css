@@ -5,19 +5,23 @@ body{
       position: absolute;
       z-index: -1;
       /* width: 1300px;  */
-
-       width: 100%; 
+      
+      width: 100%;   
+       
 }
 
-/* #g-12-img {
+#g-12-img {
       position: absolute;
-      left: 26vw;
-      top: -36vh; 
+      left: 14vw; 
+      top: -20vh; 
+      width: 85%;
 
-} */
- #g-12-img{
-      width: 100%;
+
 } 
+ /* #g-12-img{
+      width: 100%;
+      
+}  */
 
 
 .test {
