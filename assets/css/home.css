@@ -110,17 +110,25 @@ body{
       list-style: none;
 }
 .content-2{
-      margin-top: 12vh;
+      width: 100%; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70%;
 }
+
 .content-2 h2{
       font-family: kameron-bold;
-      /* font-size: 40px; */
+      font-size: 40px;
 }
 .content-2 span{
       color: rgb(42, 208, 210);
 }
 .content-2 p{
       font-family: kameron;
+}
+.hight-40vh{
+      height: 40vh;
 }
 .parent-img-2{
       /* position: relative; */
@@ -135,7 +143,7 @@ body{
       /* position: absolute;  */
        /* width: 53vw;   */
        
-       height: 90vh;
+       /* height: 90vh; */
       /* width: 58vw;  */
       /* margin-left: -8vw; */
       /* margin-top: -22vh;   */
