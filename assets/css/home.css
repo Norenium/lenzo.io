@@ -94,11 +94,6 @@ body{
 }
 
 
-.nav {
-      background-color: #00000085;
-      padding: 7px;
-}
-
 .turn {
       rotate: 90deg;
       font-size: 40px;
@@ -127,13 +122,24 @@ body{
 .content-2 p{
       font-family: kameron;
 }
-  
+.parent-img-2{
+      /* position: relative; */
+      width: 100%; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70%;
+}  
 
 .img-2{
-       width: 53vw; 
+      /* position: absolute;  */
+       /* width: 53vw;   */
+       
+       height: 90vh;
       /* width: 58vw;  */
-      margin-left: -8vw;
-      margin-top: -22vh; 
+      /* margin-left: -8vw; */
+      /* margin-top: -22vh;   */
+      
 } 
 .img-bg2{
       margin-top: -46vh;
