@@ -4,6 +4,9 @@ body{
 #g-12 {
       position: absolute;
       z-index: -1;
+      /* width: 1300px;  */
+
+       width: 100%; 
 }
 
 /* #g-12-img {
