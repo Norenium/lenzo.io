@@ -132,7 +132,7 @@ body{
 }
 
 .parent-img-2{
-      /* position: relative; */
+      
       width: 100%; 
       display: flex;
       justify-content: center;
@@ -140,16 +140,7 @@ body{
       height: 70%;
 }  
 
-/* .img-2{ */
-      /* position: absolute;  */
-       /* width: 53vw;   */
-       
-       /* height: 90vh; */
-      /* width: 58vw;  */
-      /* margin-left: -8vw; */
-      /* margin-top: -22vh;   */
-      
-/* }  */
+
 
 .img-bg2{
       z-index: -11 !important;
