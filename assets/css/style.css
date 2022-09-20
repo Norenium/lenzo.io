@@ -10,3 +10,9 @@ body {
 ::-webkit-scrollbar {
       display: none;
 }
+
+.copyright {
+      color: #555555a6;
+      text-align: center;
+      margin: 24px;
+}
