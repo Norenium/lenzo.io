@@ -1,25 +1,23 @@
-body{
+body {
       max-width: 1440px;
 }
-#g-12 {
+
+.g-12 {
       position: relative;
       z-index: -1;
-      /* width: 1300px;  */
-      
-      width: 100%;  
-      /* height: auto;  */
-       
+      width: 100%;
 }
 
-#g-12-img {
+.g-12-img {
       position: absolute;
       /* left: 14vw; 
       top: -20vh;    
        width: 85%;   */
-      width: 100%; 
+      width: 100%;
 
-} 
- /* #g-12-img{
+}
+
+/* #g-12-img{
       width: 100%;
       
 }  */
@@ -28,21 +26,34 @@ body{
 .test {
       border: 1px red solid;
 }
-.text{
+
+.text {
       text-transform: capitalize;
 }
-.my-nav{
+
+.nav-parent {
+      width: 100%;
+      max-width: 1440px;
+      position: fixed !important;
+}
+
+.my-nav {
       background-color: #00000085;
       padding: 10px 8.3% 10px 8.3%;
-      position: fixed !important;
-      width: 100%;
+      /* width: 100%; */
       margin: 0;
       display: flex;
       justify-content: space-between;
       max-width: 1440px;
 }
+
+.nav-logo {
+      max-width: 50%;
+}
+
 .logo {
-      width: 9vw;
+      width: 40%;
+      max-width: 100%;
 }
 
 .head-content span {
@@ -66,7 +77,7 @@ body{
       color: gray;
 }
 
-.part1-h1{
+.part1-h1 {
       font-family: kameron;
       font-size: 80px;
 }
@@ -80,7 +91,7 @@ body{
       font-family: roboto;
 }
 
-.btn2{
+.btn2 {
       border-radius: 30px;
       padding: 10px 60px;
       border-color: rgb(42, 208, 210);
@@ -109,82 +120,110 @@ body{
       padding: 1vw;
       list-style: none;
 }
-.hight-20vh{
+
+
+.metaverse {
+
+      background-image: url('../images/Elements/Rectangle\ 8.png');
+
+      background-size: cover;
+}
+
+.metaverse-head {
+      margin-top: -30%;
+}
+
+
+.hight-20vh {
       height: 20vh;
 }
-.content-2{
-      width: 100%; 
+
+.content-2 {
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 70%;
+      height: 100%;
 }
 
-.content-2 h2{
+.content-2 h2 {
       font-family: kameron-bold;
       font-size: 40px;
 }
-.content-2 span{
+
+.content-2 span {
       color: rgb(42, 208, 210);
 }
-.content-2 p{
+
+.content-2 p {
       font-family: kameron;
 }
 
-.parent-img-2{
-      
-      width: 100%; 
+.parent-img-2 {
+
+      width: 100%;
+      max-width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 70%;
-}  
+      /* height: 70%; */
+}
 
+.img-2 {
+      width: 170%;
+      max-width: 170%;
+}
 
-
-.img-bg2{
+.img-bg2 {
       z-index: -11 !important;
       position: absolute;
       width: 100%;
-  
+      max-width: 100%;
+      bottom: 10%;
+
 }
-@font-face{
+
+@font-face {
       font-family: kadwa-bold-700;
       src: url("../fonts/kadwa/Kadwa-Bold.ttf");
       format: ttf;
-      
+
 }
-@font-face{
+
+@font-face {
       font-family: kadwa-regular-400;
       src: url("../fonts/kadwa/Kadwa-Regular.ttf");
       formar: ttf;
 }
-.card-p3{
+
+.card-p3 {
       background-color: rgba(255, 255, 255, 0.08);
-      border-radius: 30px; 
+      border-radius: 30px;
 }
-.img-3{
+
+.img-3 {
       margin-left: 1.5vw;
       margin-top: -4vh;
       width: 30vw;
-} 
+}
 
 
-.title-part3{
+.title-part3 {
       font-family: kadwa-bold-700;
       font-weight: 700;
       margin-top: -17vh;
       position: absolute;
       max-width: 100%;
-} 
-.test-h3{
-       display: flex;
-       justify-content: center;
-       /* align-items: center;   */
-       text-align: center;
 }
 
-.text-part3{
+.test-h3 {
+      display: flex;
+      justify-content: center;
+      /* align-items: center;   */
+      text-align: center;
+}
+
+.text-part3 {
       font-family: kadwa-regular-400;
       text-align: center;
 }
@@ -195,16 +234,18 @@ body{
       margin-top: -63vh !important;
       margin-left: 9vw;  
 } */
-.group7{
+.group7 {
       width: 30vw;
       margin-top: -3vh;
 }
-.town-hall{
+
+.town-hall {
       width: 18vw;
       margin-top: -65vh;
       margin-left: 8vw;
 }
-.btn-3{
+
+.btn-3 {
       border-radius: 30px !important;
       padding: 10px 70px !important;
       background-color: rgb(42, 208, 210);
@@ -212,7 +253,8 @@ body{
       margin-right: 15px;
       font-family: roboto;
 }
-.btn-4{
+
+.btn-4 {
       border-radius: 30px;
       padding: 10px 50px;
       border-color: rgb(42, 208, 210);
@@ -220,17 +262,21 @@ body{
       color: white;
       font-family: roboto;
 }
-.hight-30vh{
+
+.hight-30vh {
       height: 30vh;
 }
-.part4-h1{
+
+.part4-h1 {
       font-size: 60px;
       /* font-family: inter; */
       font-weight: 800;
 }
-.fw-bold{
+
+.fw-bold {
       margin-top: -2vh;
 }
-.text-part4{
+
+.text-part4 {
       margin-top: 9vh;
 }
