@@ -4,8 +4,15 @@ body {
       color: #ffffff;
       max-width: 1440px;
       margin: auto;
+      min-width: 300px;
 }
 
 ::-webkit-scrollbar {
       display: none;
+}
+
+.copyright {
+      color: #555555a6;
+      text-align: center;
+      margin: 24px;
 }
