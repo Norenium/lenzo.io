@@ -1,0 +1,68 @@
+.metaverse {
+      background-image: url('../images/Elements/Rectangle\ 8.png');
+      /* background-size: cover; */
+      background-repeat: repeat-y;
+}
+
+.metaverse-head {
+      margin-top: -30%;
+}
+
+
+.hight-20vh {
+      height: 20vh;
+}
+
+
+
+.metaverse-head-text {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+}
+
+.metaverse-head-text h2 {
+      font-family: kameron-bold;
+      font-size: 40px;
+}
+
+.metaverse-head-text span {
+      color: rgb(42, 208, 210);
+}
+
+.metaverse-head-text p {
+      font-family: kameron;
+}
+
+.parent-img-2 {
+
+      width: 100%;
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* height: 70%; */
+}
+
+.img-2 {
+      width: 170%;
+      max-width: 170%;
+}
+
+.img-bg2 {
+      z-index: -11 !important;
+      position: absolute;
+      width: 100%;
+      max-width: 100%;
+      bottom: 10%;
+
+}
+
+
+.card-frame {
+      background-color: rgba(255, 255, 255, 0.08);
+      border-radius: 32px;
+      margin-bottom: 128px;
+}

@@ -9,15 +9,3 @@ body {
 ::-webkit-scrollbar {
       display: none;
 }
-
-
-
-/* Navigation bar items */
-.menu-bar {
-      text-align: end;
-      float: right;
-}
-
-.menu-head-item {
-      width: fit-content;
-}

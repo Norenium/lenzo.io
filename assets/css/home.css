@@ -6,51 +6,19 @@
 
 .g-12-img {
       position: absolute;
-      /* left: 14vw; 
-      top: -20vh;    
-       width: 85%;   */
       width: 100%;
-
 }
 
-/* #g-12-img{
-      width: 100%;
-      
-}  */
 
 
-.test {
-      border: 1px red solid;
-}
+
 
 .text {
       text-transform: capitalize;
 }
 
-.nav-parent {
-      width: 100%;
-      max-width: 1440px;
-      position: fixed !important;
-}
 
-.my-nav {
-      background-color: #00000085;
-      padding: 10px 8.3% 10px 8.3%;
-      /* width: 100%; */
-      margin: 0;
-      display: flex;
-      justify-content: space-between;
-      max-width: 1440px;
-}
 
-.nav-logo {
-      max-width: 50%;
-}
-
-.logo {
-      width: 40%;
-      max-width: 100%;
-}
 
 .head-content span {
       color: rgb(42, 208, 210);
@@ -62,10 +30,6 @@
       font-family: 'Kameron', serif;
 }
 
-.menu-head-item {
-      font-family: jomolhari;
-      font-size: 16px;
-}
 
 .head-content p {
       font-family: inter-light;
@@ -118,131 +82,6 @@
 }
 
 
-.metaverse {
-
-      background-image: url('../images/Elements/Rectangle\ 8.png');
-
-      background-size: cover;
-}
-
-.metaverse-head {
-      margin-top: -30%;
-}
-
-
-.hight-20vh {
-      height: 20vh;
-}
-
-.content-2 {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-}
-
-.content-2 h2 {
-      font-family: kameron-bold;
-      font-size: 40px;
-}
-
-.content-2 span {
-      color: rgb(42, 208, 210);
-}
-
-.content-2 p {
-      font-family: kameron;
-}
-
-.parent-img-2 {
-
-      width: 100%;
-      max-width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      /* height: 70%; */
-}
-
-.img-2 {
-      width: 170%;
-      max-width: 170%;
-}
-
-.img-bg2 {
-      z-index: -11 !important;
-      position: absolute;
-      width: 100%;
-      max-width: 100%;
-      bottom: 10%;
-
-}
-
-@font-face {
-      font-family: kadwa-bold-700;
-      src: url("../fonts/kadwa/Kadwa-Bold.ttf");
-      format: ttf;
-
-}
-
-@font-face {
-      font-family: kadwa-regular-400;
-      src: url("../fonts/kadwa/Kadwa-Regular.ttf");
-      formar: ttf;
-}
-
-.card-p3 {
-      background-color: rgba(255, 255, 255, 0.08);
-      border-radius: 32px;
-      margin-bottom: 64px;
-}
-
-.img-3 {
-      margin-left: 1.5vw;
-      margin-top: -4vh;
-      width: 30vw;
-}
-
-
-.title-part3 {
-      font-family: kadwa-bold-700;
-      font-weight: 700;
-      margin-top: -17vh;
-      position: absolute;
-      max-width: 100%;
-}
-
-.test-h3 {
-      position: relative;
-      /* display: flex; */
-      /* justify-content: center; */
-      /* align-items: center;   */
-      text-align: center;
-}
-
-.text-part3 {
-      font-family: kadwa-regular-400;
-      text-align: center;
-}
-
-
-
-/* .hotel{
-      width: 15vw;
-      margin-top: -63vh !important;
-      margin-left: 9vw;  
-} */
-.group7 {
-      width: 30vw;
-      margin-top: -3vh;
-}
-
-.town-hall {
-      width: 18vw;
-      margin-top: -65vh;
-      margin-left: 8vw;
-}
 
 .btn-3 {
       border-radius: 30px !important;
@@ -280,6 +119,7 @@
       margin-top: 9vh;
 }
 
+/*          Description cards              */
 
 .card-img-frame {
       background-image: url('../images/Elements/Group\ 10.png');

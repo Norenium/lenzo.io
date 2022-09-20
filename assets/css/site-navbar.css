@@ -1,0 +1,36 @@
+   /* ===== Desktop Nav bar ===== */
+
+   .nav-parent {
+         width: 100%;
+         max-width: 1440px;
+         position: fixed !important;
+   }
+
+   .my-nav {
+         background-color: #00000085;
+         padding: 10px 8.3% 10px 8.3%;
+         /* width: 100%; */
+         margin: 0;
+         display: flex;
+         justify-content: space-between;
+         max-width: 1440px;
+   }
+
+   .nav-logo {
+         max-width: 50%;
+   }
+
+   .logo {
+         width: 40%;
+         max-width: 100%;
+   }
+
+
+   .nav-head-item {
+         font-family: jomolhari;
+         font-size: 16px;
+         width: fit-content;
+   }
+
+
+   /* ===== Phone Nav bar ===== */
