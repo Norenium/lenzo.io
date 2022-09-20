@@ -2,6 +2,8 @@ body {
       background-color: #000000;
       overflow-x: hidden;
       color: #ffffff;
+      max-width: 1440px;
+      margin: auto;
 }
 
 ::-webkit-scrollbar {
