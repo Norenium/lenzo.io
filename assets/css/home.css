@@ -79,6 +79,7 @@
       margin: 2vw;
       padding: 1vw;
       list-style: none;
+      position: sticky;
 }
 
 

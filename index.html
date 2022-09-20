@@ -134,7 +134,7 @@
             <div class="col-1  "></div>
       </div>
 
-      <ul class="social-icons">
+      <ul class="social-icons" id="social-menu-frame">
 
             <li><i class='bx bxl-twitter'></i></li>
             <li><i class='bx bx-minus turn'></i>
@@ -405,6 +405,11 @@
 
       BUY -> Financial documents -> -->
 
+      <script>
+            var socialDivHeight = document.getElementById('social-menu-frame').offsetHeight;
+            var distance = (window.innerHeight - socialDivHeight) / 2;
+            document.getElementById('social-menu-frame').style.top = distance + "px";
+      </script>
 
       <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script> -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
