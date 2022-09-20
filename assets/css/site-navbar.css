@@ -1,5 +1,7 @@
    /* ===== Desktop Nav bar ===== */
-
+.test{
+      border: 1px solid red;
+}
    .nav-parent {
          width: 100%;
          max-width: 1440px;
@@ -34,3 +36,17 @@
 
 
    /* ===== Phone Nav bar ===== */
+   .logo-phone{
+         max-width: 70%;
+   }
+   /* .dropdown-content{
+      font-family: roboto;
+      display: none;
+      color: #f1f1f1;
+      font-weight: 400;
+      font-size: larger;
+      min-height: 180px;
+      overflow: auto;
+      top: 50px;
+      z-index: 1;
+  }  */
