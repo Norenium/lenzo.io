@@ -57,7 +57,7 @@
    }
    .dropdown-content {
       font-family: roboto;
-      display: none; 
+      /* display: none !important;   */
       position: absolute;
       color: #f1f1f1;
       font-weight: 400;
@@ -98,5 +98,9 @@
 .part1-h1-phone{
       font-family: kameron;
       font-size: 11vw;
+}
+.ph{
+      padding-right: 60px;
+      padding-left: 60px;
 }
 
