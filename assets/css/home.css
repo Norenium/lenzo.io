@@ -44,7 +44,7 @@
 
 .btn1 {
       border-radius: 30px !important;
-      padding: 10px 60px !important;
+      padding: 10px 7vw !important;
       background-color: rgb(42, 208, 210);
       color: white;
       margin-right: 15px;
@@ -54,7 +54,7 @@
 
 .btn2 {
       border-radius: 30px;
-      padding: 10px 60px;
+      padding: 10px 7vw;
       border-color: rgb(42, 208, 210);
       background-color: #000000;
       color: white;
