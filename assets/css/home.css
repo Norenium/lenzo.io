@@ -3,7 +3,6 @@
       z-index: -1;
       width: 100%; 
       
-      /* width: 175vw; */
 }
 
 .g-12-img {
@@ -15,8 +14,6 @@
 .text {
       text-transform: capitalize;
 }
-
-
 
 
 .head-content span {
@@ -40,7 +37,10 @@
       font-family: kameron;
       font-size: 80px;
 }
-
+.part1-h1-phone{
+      font-family: kameron;
+      font-size: 11vw;
+}
 .btn1 {
       border-radius: 30px !important;
       padding: 10px 7vw !important;
@@ -142,7 +142,8 @@
 .card-frame {
       background-color: rgba(255, 255, 255, 0.08);
       border-radius: 32px;
-      margin-bottom: 128px;
+      /* margin-bottom: 128px; */
+      margin-bottom: 100px;
 }
 
 .card-img-frame {
