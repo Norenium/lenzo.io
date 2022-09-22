@@ -60,9 +60,10 @@
       font-family: roboto;
 }
 
-.bx {
+.bx-social {
       font-size: 30px;
-}
+      cursor: pointer;
+  }
 
 
 .turn {
