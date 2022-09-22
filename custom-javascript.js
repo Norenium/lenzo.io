@@ -14,3 +14,28 @@ document.addEventListener('scroll', function () {
     }
 
 })
+
+
+
+
+
+// its ralated to navbar
+
+function openPhoneMenu() {
+    var x = document.getElementById("myLinks");
+
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+document.addEventListener('click', function (e) {
+    var x = document.getElementById("myLinks");
+    if (!x.contains(e.target) && (!document.getElementById('menu-a').contains(e.target))) {
+        if (x.style.display === "block") {
+            x.style.display = "none";
+            //console.info(e.target)
+        }
+    }
+})
