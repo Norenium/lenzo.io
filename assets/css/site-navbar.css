@@ -19,7 +19,7 @@
    }
 
    .nav-logo {
-         max-width: 50%;
+         /* max-width: 50%; */
          width: 20%;  
    }
 
@@ -35,7 +35,9 @@
          font-size: 16px;
          width: fit-content;
    }
-
+   .bx-nav {
+      font-size: 24px;
+   }
 
    /* ===== Phone Nav bar ===== */
 
