@@ -57,7 +57,7 @@
    }
    .dropdown-content {
       font-family: roboto;
-      /* display: none !important;   */
+      /* display: none !important; */
       position: absolute;
       color: #f1f1f1;
       font-weight: 400;
@@ -71,6 +71,9 @@
       z-index: 1;
       
 }
+/* .container{
+      display: none;
+} */
 .dropdown-content-phone {
       position: sticky !important;
       /* text-align: center; */
