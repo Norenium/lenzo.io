@@ -98,11 +98,8 @@
 .img-menu-phone{
       color: rgb(42, 208, 210);
       font-size: 16vw !important;
-      margin: 0;
+      /* margin: 0; */
 }
-.part1-h1-phone{
-      font-family: kameron;
-      font-size: 11vw;
-}
+
 
 
