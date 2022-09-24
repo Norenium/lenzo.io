@@ -122,13 +122,15 @@
 .hight-30vh {
       height: 30vh;
 }
-    /*********** this part have problome *************/
-.part4-h1 {
-      font-size: 60px;
-      /* font-family: inter; */
-      font-weight: 800;
- }   
-/* ************************************ */
+.part4-h1 { 
+      font-size: 70px;
+      font-weight: bold;
+   } 
+  .part4-h1-phone{
+      font-weight: bold;
+       font-size: 38px; 
+      /* font-size: 7vw; */
+  }
 
 .fw-bold {
       margin-top: -2vh;
