@@ -1,7 +1,7 @@
 // its ralated to social iconns
 
-document.getElementById('width').innerHTML = screen.width + ' , ' + window.innerWidth;
-document.getElementById('height').innerHTML = screen.height + ' , ' + window.innerHeight;
+// document.getElementById('width').innerHTML = screen.width + ' , ' + window.innerWidth;
+// document.getElementById('height').innerHTML = screen.height + ' , ' + window.innerHeight;
 
 document.addEventListener('scroll', function () {
     // document.getElementById('showHeight').innerHTML = scrollY;

@@ -1,8 +1,8 @@
 .g-12 {
       position: relative;
       z-index: -1;
-      width: 100%; 
-      
+      width: 100%;
+
 }
 
 .g-12-img {
@@ -35,12 +35,14 @@
 
 .part1-h1 {
       font-family: kameron;
-      font-size: 80px;
+      /* font-size: 80px; */
 }
-.part1-h1-phone{
+
+.part1-h1-phone {
       font-family: kameron;
       font-size: 11vw;
 }
+
 .btn1 {
       border-radius: 30px !important;
       padding: 10px 7vw !important;
@@ -48,7 +50,7 @@
       color: white;
       margin-right: 15px;
       font-family: roboto;
-      
+
 }
 
 .btn2 {
@@ -63,7 +65,7 @@
 .bx-social {
       font-size: 30px;
       cursor: pointer;
-  }
+}
 
 
 .turn {
@@ -100,16 +102,18 @@
       color: white;
       font-family: roboto;
 }
-.btn-phone-3{
+
+.btn-phone-3 {
       border-radius: 30px !important;
       padding: 10px 9vw !important;
       background-color: rgb(42, 208, 210);
       color: white;
       margin-right: 15px;
       font-family: roboto;
-      
+
 }
-.btn-phone-4{
+
+.btn-phone-4 {
       border-radius: 30px;
       padding: 10px 7vw;
       border-color: rgb(42, 208, 210);
@@ -122,13 +126,26 @@
 .hight-30vh {
       height: 30vh;
 }
-    /*********** this part have problome *************/
+
+/*********** this part have problome *************/
 .part4-h1 {
       font-size: 60px;
+      /* font-size: 3.5rem; */
       /* font-family: inter; */
       font-weight: 800;
- }   
+}
+
 /* ************************************ */
+
+@media screen and (max-width: 600px) {
+
+      .part4-h1 {
+            font-size: 2.4rem;
+            /* font-family: inter;  */
+            font-weight: 800;
+      }
+
+}
 
 .fw-bold {
       margin-top: -2vh;
