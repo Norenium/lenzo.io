@@ -8,8 +8,14 @@
 .g-12-img {
       position: absolute;
       width: 100%;
+      /* margin-top: -30vh; */
 
 }
+/* .g-12-img-phone{
+      position: absolute;
+      width: 100%;
+  
+  } */
 
 .text {
       text-transform: capitalize;
