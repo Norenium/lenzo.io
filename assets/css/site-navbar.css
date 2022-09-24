@@ -1,6 +1,7 @@
    /* ===== Desktop Nav bar ===== */
    .sticky-top2 {
          position: fixed;
+         width: 100%;
          max-width: 100%;
    }
 
