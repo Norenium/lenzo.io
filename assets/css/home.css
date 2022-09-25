@@ -8,14 +8,8 @@
 .g-12-img {
       position: absolute;
       width: 100%;
-      /* margin-top: -30vh; */
-
 }
-/* .g-12-img-phone{
-      position: absolute;
-      width: 100%;
-  
-  } */
+
 
 .text {
       text-transform: capitalize;
@@ -132,16 +126,12 @@
 .hight-30vh {
       height: 30vh;
 }
-.part4-h1 { 
-      font-size: 70px;
-      font-weight: bold;
-   } 
-  .part4-h1-phone{
-      font-weight: bold;
-       font-size: 38px; 
-      /* font-size: 7vw; */
+
+  .part4-h1{
+        font-size: 60px;
+        font-weight: 800;
   }
-/* 
+
 @media screen and (max-width: 600px) {
 
       .part4-h1 {
@@ -150,7 +140,7 @@
             font-weight: 800;
       }
 
-} */
+} 
 
 .fw-bold {
       margin-top: -2vh;
