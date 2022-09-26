@@ -21,6 +21,11 @@
       src: url("../fonts/inter/Inter-Light.ttf");
       format: ttf;
 }
+@font-face {
+      font-family: inter-black;
+      src: url("../fonts/inter/Inter-Black.ttf");
+      format: ttf;
+}
 
 @font-face {
       font-family: roboto;
