@@ -130,6 +130,7 @@
   .part4-h1{
         font-size: 60px;
         font-weight: 800;
+        font-family: inter-black;
   }
 
 @media screen and (max-width: 600px) {
@@ -148,7 +149,16 @@
 
 .text-part4 {
       margin-top: 9vh;
+      font-family: roboto;
+      font-size: 22px;
 }
+@media screen and (max-width: 756px) {
+
+      .text-part4 {
+            font-size: 2.8vw;
+      }
+
+} 
 
 /*          Description cards              */
 
