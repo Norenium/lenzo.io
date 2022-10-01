@@ -262,7 +262,9 @@ min-width:992px */
       height: fit-content;
    
 }
-.Ts-bg{
+.TS-bg,
+.FT-bg,
+.SP-bg{
       max-width: 100%;
 }
 .usecases-card-title{
