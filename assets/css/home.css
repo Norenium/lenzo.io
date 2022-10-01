@@ -8,8 +8,8 @@
 .g-12-img {
       position: absolute;
       width: 100%;
-
 }
+
 
 .text {
       text-transform: capitalize;
@@ -127,25 +127,21 @@
       height: 30vh;
 }
 
-/*********** this part have problome *************/
-.part4-h1 {
-      font-size: 60px;
-      /* font-size: 3.5rem; */
-      /* font-family: inter; */
-      font-weight: 800;
-}
-
-/* ************************************ */
+  .part4-h1{
+        font-size: 60px;
+        font-weight: 800;
+        font-family: inter-black;
+  }
 
 @media screen and (max-width: 600px) {
 
       .part4-h1 {
             font-size: 2.4rem;
-            /* font-family: inter;  */
+           
             font-weight: 800;
       }
 
-}
+} 
 
 .fw-bold {
       margin-top: -2vh;
@@ -153,7 +149,20 @@
 
 .text-part4 {
       margin-top: 9vh;
+      font-family: roboto;
+      font-size: 22px;  
 }
+/* max-width:1146px
+min-width:992px */
+
+
+/* @media screen and (max-width: 756px) {
+
+      .text-part4 {
+             
+      }
+
+}  */
 
 /*          Description cards              */
 
