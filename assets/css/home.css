@@ -225,3 +225,51 @@ min-width:992px */
       cursor: pointer;
 
 }
+/* usecases section */
+
+.usecases span{
+      color: rgb(42, 208, 210);
+      
+}
+.usecases h1{
+      font-size: 60px;
+      font-weight: 700;
+      
+}
+.usecases-findmore {
+      font-weight: 500;
+      font-size: 25px;
+      text-decoration: underline; 
+      padding: 6px 26px 6px 0px;
+      width: fit-content;
+      cursor: pointer;
+
+}
+.usecases-readmore {
+    font-size: 20px;
+    text-decoration: underline; 
+    padding: 6px 26px 6px 0px;
+    width: fit-content;
+    cursor: pointer;
+}
+.usecases-card-fram{
+    border-radius: 32px;
+  
+}
+.usecases-card-img-fram{
+      vertical-align: middle;
+      width: 100%;
+      height: fit-content;
+   
+}
+.Ts-bg{
+      max-width: 100%;
+}
+.usecases-card-title{
+      /* margin-top: -30%; */
+}
+
+
+/* .usecases-card-title{
+      padding: 10% 0% 10% 5%;
+} */
