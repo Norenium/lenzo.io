@@ -221,7 +221,7 @@ min-width:992px */
 
 /* usecases section with backgrand-image*/
 
- .usecases span{
+ /* .usecases span{
     color: rgb(42, 208, 210);
     
 }
@@ -246,7 +246,7 @@ min-width:992px */
     padding: 6px 26px 6px 0px;
     width: fit-content;
     cursor: pointer;
-} 
+}  */
 
 /* .bg-fram{ 
      background: linear-gradient(to right, rgba(, , , ), rgba(, , , ), rgba(, , , ));
@@ -255,7 +255,7 @@ min-width:992px */
     width: 115%;
     border-radius: 15px;
 }   */
-.card-1{
+/* .card-1{
     background-image: url('./assets/images/Objects/TS-bg-2.png');   
     background-size: cover;
     background-repeat: no-repeat;   
@@ -288,12 +288,12 @@ min-width:992px */
     width: 100% !important;
     height: 100%;
     
-} 
+}  */
 
 
 /* usecases section without backgrand-image */
 
-/* .usecases span{
+.usecases span{
     color: rgb(42, 208, 210);
     
 }
@@ -320,10 +320,12 @@ min-width:992px */
 }  
 .usecases-card-fram{ 
   position: relative;
+  display: flex;
+  align-items: center;
 } 
 .usecases-card-title{
     position: absolute;
-    margin-top: -45%;
+
 }
 .usecases-card-img-fram{
     vertical-align: middle;
@@ -334,7 +336,7 @@ min-width:992px */
 .FT-bg,
 .SP-bg{
     max-width: 100%;
-}  */
+}  
 
 
 
