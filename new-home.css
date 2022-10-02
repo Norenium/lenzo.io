@@ -297,10 +297,13 @@ min-width:992px */
     color: rgb(42, 208, 210);
     
 }
-.usecases h1{
-    font-size: 60px;
-    font-weight: 700;
-    
+.usecases-h1-des{
+    font-size: 5vw;
+    font-weight: 700; 
+}
+.usecases-h1-phone{
+    font-size: 4rem;
+    font-weight: 700; 
 }
 .usecases-findmore {
     font-weight: 500;
@@ -338,6 +341,7 @@ min-width:992px */
 .SP-bg{
     max-width: 100%;
 }  
+
 
 
 
