@@ -227,7 +227,7 @@ min-width:992px */
 }
 /* usecases section */
 
-.usecases span{
+/* .usecases span{
       color: rgb(42, 208, 210);
       
 }
@@ -251,13 +251,13 @@ min-width:992px */
     padding: 6px 26px 6px 0px;
     width: fit-content;
     cursor: pointer;
-}
+} */
 /* .usecases-card-fram{ 
     
   
 } */
 
-.usecases-card-img-fram{
+/* .usecases-card-img-fram{
       vertical-align: middle;
       width: 100%;
       height: fit-content;
@@ -268,14 +268,11 @@ min-width:992px */
 .FT-bg,
 .SP-bg{
       max-width: 100%;
-      /* border-radius: 28px; */
-}
- /* .usecases-card-title{ 
+} */
+  /* .usecases-card-title{ 
       
 
-}  */
+}   */
 
 
-/* .usecases-card-title{
-      padding: 10% 0% 10% 5%;
-} */
+
