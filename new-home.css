@@ -219,9 +219,9 @@ min-width:992px */
 }
 
 
-/* usecases section */
+/* usecases section with backgrand-image*/
 
-.usecases span{
+ .usecases span{
     color: rgb(42, 208, 210);
     
 }
@@ -246,22 +246,20 @@ min-width:992px */
     padding: 6px 26px 6px 0px;
     width: fit-content;
     cursor: pointer;
-}
-/* 
-.bg-fram{ */
-    /* background: linear-gradient(to right, rgba(, , , ), rgba(, , , ), rgba(, , , ));
+} 
+
+/* .bg-fram{ 
+     background: linear-gradient(to right, rgba(, , , ), rgba(, , , ), rgba(, , , ));
     z-index: 1;
-    height: 100%; */
-    /* background-color: #00000085;
+    height: 100%; 
     width: 115%;
     border-radius: 15px;
-}  */
+}   */
 .card-1{
     background-image: url('./assets/images/Objects/TS-bg-2.png');   
     background-size: cover;
     background-repeat: no-repeat;   
     width: 100%;
-    border-radius: 15px;
    
     
 }
@@ -272,7 +270,7 @@ min-width:992px */
     background-size: cover;
     background-repeat: no-repeat;   
     width: 100%;
-    border-radius: 15px;
+    
    
     
 }
@@ -282,12 +280,61 @@ min-width:992px */
     background-repeat: no-repeat;   
     width: 100%;
     max-width: 100%;
-    border-radius: 15px;
-}
+    
+} 
 
-.usecases-card-title{
+ .usecases-card-title{
     padding: 10% 0% 10% 5%;
     width: 100% !important;
     height: 100%;
     
+} 
+
+
+/* usecases section without backgrand-image */
+
+/* .usecases span{
+    color: rgb(42, 208, 210);
+    
 }
+.usecases h1{
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+.usecases-findmore {
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: underline; 
+    padding: 6px 26px 6px 0px;
+    width: fit-content;
+    cursor: pointer;
+
+} 
+.usecases-readmore {
+  font-size: 20px;
+  text-decoration: underline; 
+  padding: 6px 26px 6px 0px;
+  width: fit-content;
+  cursor: pointer;
+}  
+.usecases-card-fram{ 
+  position: relative;
+} 
+.usecases-card-title{
+    position: absolute;
+    margin-top: -45%;
+}
+.usecases-card-img-fram{
+    vertical-align: middle;
+    width: 100%;
+    height: fit-content;
+}
+.TS-bg,
+.FT-bg,
+.SP-bg{
+    max-width: 100%;
+}  */
+
+
+
