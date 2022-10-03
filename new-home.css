@@ -67,6 +67,7 @@
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
+    margin-bottom: 40px;
 }
 .Finacial-cart-text{
     /* height: 90px; */
@@ -82,4 +83,10 @@
     display: flex;
     align-items: center;
     
+    
+}
+.SW-logo,
+.BL-logo,
+.TS-logo{
+    max-width: 100%;
 }
