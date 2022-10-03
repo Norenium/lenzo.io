@@ -1,7 +1,7 @@
 .g-12 {
       position: relative;
       z-index: -1;
-      width: 100%; 
+      width: 100%;
 
 }
 
@@ -82,7 +82,8 @@
       margin: 2vw;
       padding: 1vw;
       list-style: none;
-      position: sticky;
+      position: sticky !important;
+
 }
 
 .btn-3 {
@@ -127,21 +128,21 @@
       height: 30vh;
 }
 
-  .part4-h1{
-        font-size: 60px;
-        font-weight: 800;
-        font-family: inter-black;
-  }
+.part4-h1 {
+      font-size: 60px;
+      font-weight: 800;
+      font-family: inter-black;
+}
 
 @media screen and (max-width: 600px) {
 
       .part4-h1 {
             font-size: 2.4rem;
-           
+
             font-weight: 800;
       }
 
-} 
+}
 
 .fw-bold {
       margin-top: -2vh;
@@ -150,8 +151,9 @@
 .text-part4 {
       margin-top: 9vh;
       font-family: roboto;
-      font-size: 22px;  
+      font-size: 22px;
 }
+
 /* max-width:1146px
 min-width:992px */
 
@@ -225,6 +227,3 @@ min-width:992px */
       cursor: pointer;
 
 }
-
-
-

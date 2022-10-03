@@ -3,17 +3,27 @@
 // document.getElementById('width').innerHTML = screen.width + ' , ' + window.innerWidth;
 // document.getElementById('height').innerHTML = screen.height + ' , ' + window.innerHeight;
 
+console.log('custom-js is running')
+
 document.addEventListener('scroll', function () {
     // document.getElementById('showHeight').innerHTML = scrollY;
+    var socialDivHeight = document.getElementById('social-menu-frame').offsetHeight;
+    //console.log('scroll- window.pageYOffset: ' + window.pageYOffset)
 
-    if (scrollY > 340 && scrollY < 600) {
-        console.log(document.getElementById('social-menu-frame').style.top)
+    if (scrollY > 340) {
+        var distance = ((window.innerHeight - socialDivHeight) / 2) + window.pageYOffset;
+        document.getElementById('social-menu-frame').style.top = distance + "px";
 
-        var dis = 190;
-        document.getElementById('social-menu-frame').style.top = dis + "px";
+        console.log('scroll- social-menu-frame: ' + document.getElementById('social-menu-frame').style.top)
+
     }
 
 })
+
+
+
+
+
 
 
 
