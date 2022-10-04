@@ -3,6 +3,7 @@
          position: fixed;
          width: 100%;
          max-width: 100%;
+         z-index: 1;
    }
 
    .test {
@@ -13,6 +14,7 @@
          width: 100%;
          max-width: 1440px;
          position: fixed !important;
+         z-index: 1;
    }
 
    .my-nav {

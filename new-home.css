@@ -53,12 +53,33 @@
     width: 100%;
     height: fit-content;
 }
-.TS-bg,
-.FT-bg,
-.SP-bg{
+.TS-bg-2,
+.FT-bg-2,
+.SP-bg-2{
     max-width: 100%;
 }  
 
+/* financial section */
 
+.Finacial-card-fram{
+    background-color: rgba(255, 255, 255, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.Finacial-cart-text{
+    /* height: 90px; */
+}
+.pad-1{
+    padding-top: 9.5%;
+}
+.pad-2{
+    padding-bottom: 6.5%;
+} 
 
-
+.Finacial-card-img-fram{
+    display: flex;
+    align-items: center;
+    
+}
