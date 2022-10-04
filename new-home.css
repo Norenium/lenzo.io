@@ -110,9 +110,6 @@
 .Finacial-card-text{
     height: 100px;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .Finacial-card-img-fram{
@@ -127,16 +124,13 @@
     max-width: 100%;
 }
 .financial-readmore {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
     text-decoration: underline; 
     padding: 10px 38px;
     cursor: pointer;
-    /* height: 50px; */
     background-color: rgba(217, 217, 217, 0.1);
     border-radius: 50px;
     letter-spacing: -0.035em;
+    text-align: center;
   } 
   .Finacial-card-title p{
       font-family: roboto;
