@@ -43,7 +43,7 @@
   display: flex;
   align-items: center;
 } 
-.usecases-card-title{
+.usecases-card-content-title{
     position: absolute;
     padding-left: 5%;
 
@@ -58,18 +58,41 @@
 .SP-bg-2{
     max-width: 100%;
 }  
+.us-card-title1{
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;                     /*   it was 24px */
+    line-height: 158.16%;
+    letter-spacing: -0.035em;
+    color: #DFDEDE;
+}
+.us-card-title2{
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;                     /*   it was 48px */
+    line-height: 80%;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+
+}
 
 /* financial section */
 
+
 .Finacial-card-fram{
+    /* background: linear-gradient (180deg, #313131 0%, #000000 100%,); 
+    backdrop-filter: blur(25px) ; */
     background-color: rgba(255, 255, 255, 0.08);
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 36px;
     margin-bottom: 40px;
-    height: 350px;
+    height: 400px;
     position: relative;
+    
 }
 .Finacial-card-title{
     position: absolute;
@@ -79,13 +102,16 @@
 }
 .Finacial-card-text{
     height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Finacial-card-img-fram{
     display: flex;
     align-items: center;
     height: 150px;
-    
     
 }
 .SW-logo,
@@ -98,7 +124,37 @@
     justify-content: center; 
     align-items: center;
     text-decoration: underline; 
-    width: 100%;
+    width: 50%;
     cursor: pointer;
-    height: 55px;
-  }  
+    height: 50px;
+    background-color: rgba(217, 217, 217, 0.1);
+    border-radius: 50px;
+    letter-spacing: 0.035em;
+  } 
+  .Finacial-card-title p{
+      font-family: roboto;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 40px;                      /*   it was 48px */
+      line-height: 158.16%;
+      letter-spacing: 0.035em;
+      color: #FFFFFF;
+  }
+.Finacial-card-text p{
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;                            /*   it was 28px */
+    color: rgb(42, 208, 210);
+    letter-spacing: 0.035em;
+    line-height: 130%;
+}
+.Finacial-card-text span{
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size:22px ;                       /*   it was 32px */
+    color: #FFFFFF;
+    line-height: 130%;
+    letter-spacing: 0.035em;
+}
