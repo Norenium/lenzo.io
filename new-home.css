@@ -82,7 +82,11 @@
 }
 
 .Finacial-card-img-fram{
+    display: flex;
+    align-items: center;
     height: 150px;
+    
+    
 }
 .SW-logo,
 .BL-logo,
