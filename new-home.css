@@ -41,7 +41,6 @@
     color: #DFDEDE;
     font-size: 21px;                    /*   it was 24px */         
     text-decoration: underline; 
-    /* padding: 6px 26px 6px 0px; */
     width: fit-content;
     cursor: pointer;
 }  
