@@ -69,21 +69,23 @@
     border-radius: 20px;
     margin-bottom: 40px;
     height: 350px;
+    position: relative;
+}
+.Finacial-card-title{
+    position: absolute;
+    height: 15px;
+    display: flex;
+    align-items: center;
 }
 .Finacial-card-text{
     height: 100px;
 }
-/* .pad-1{
-    padding-top: 9.5%;
-}
-.pad-2{
-    padding-bottom: 6.5%;
-}  */
 
 .Finacial-card-img-fram{
     display: flex;
     align-items: center;
     height: 150px;
+    
     
 }
 .SW-logo,
@@ -92,10 +94,11 @@
     max-width: 100%;
 }
 .financial-readmore {
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
     text-decoration: underline; 
-    text-align: center;
     width: 100%;
     cursor: pointer;
+    height: 55px;
   }  
