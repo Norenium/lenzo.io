@@ -45,3 +45,8 @@
       src: url("../fonts/kadwa/Kadwa-Regular.ttf");
       formar: ttf;
 }
+@font-face {
+      font-family: jura;
+      src: url("../fonts/jura/Jura-Regular.ttf");
+      formar: ttf;
+}
