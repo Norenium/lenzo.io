@@ -214,8 +214,17 @@
     left: -20%;
     bottom: -80px;
     width: 100%;
-
-    
+}
+.outer-right{
+    position: relative; 
+    display: flex;
+    align-items: center; 
+    right: -30vw;
+    top: -9px;
+    /* bottom: -10vh;  */
+    /* left: -20%;
+    bottom: -80px; */
+    width: 100%;
 }
 .inner{
     width: 40%;
