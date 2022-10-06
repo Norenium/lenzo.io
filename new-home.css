@@ -159,6 +159,22 @@
     letter-spacing: -0.035em;
 }
 /* road map section */
+.road-map-title{
+    width: 100%;
+    font-family: 'jura';
+    font-style: normal;
+    font-size: 34px;                              /*   it was 64px */
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.31em;
+    text-decoration-line: underline;
+    color: #ffffff;
+    background: rgba(42, 208, 210, 0.5);
+    border-width: 20px 0px 7px 0px;
+    border-style: solid;
+    border-color: rgba(42, 208, 210, 0.75);
+    filter: blur(1px);                              /*   it was 5px */
+}
 
 .road-map{
     border-radius: 20px;
