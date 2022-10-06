@@ -1,4 +1,4 @@
-.g-12 {
+ .g-12 {
       position: relative;
       z-index: -1;
       width: 100%;
@@ -35,7 +35,7 @@
 
 .part1-h1 {
       font-family: kameron;
-      /* font-size: 80px; */
+      /* font-size: 80px;  */
 }
 
 .part1-h1-phone {
@@ -60,7 +60,10 @@
       background-color: #000000;
       color: white;
       font-family: roboto;
-}
+}  
+
+
+
 
 .bx-social {
       font-size: 30px;
