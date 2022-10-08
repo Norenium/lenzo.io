@@ -193,7 +193,8 @@
     display: flex;
     justify-content: end;
     /* padding-top: 70px; */
-    padding-top: 12%;
+    /* padding-top: 10%; */
+    padding-top: 5.6vw;
     
 }
 .outer-left{
@@ -202,13 +203,12 @@
     left: -10vw;
     display: flex;
     align-items: center;
-    margin-bottom: 5.8vw;
+    /* margin-bottom: 5.8vw; */
 }
 .outer-right{
     position: relative;
     height: 5px;
     right: -37vw; 
-    
     display: flex;
     align-items: center;
 }
