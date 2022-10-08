@@ -90,7 +90,6 @@
 .Finacial-card-fram{
     /* background: linear-gradient (180deg, #313131 0%, #000000 100%,); 
     backdrop-filter: blur(25px) ; */
-    /* background-color: rgba(255, 255, 255, 0.08); */
     background-image: linear-gradient(hsl(280, 2%, 24%), hsl(0, 0%, 0%)) !important; 
     display: flex;
     flex-direction: column;
@@ -230,21 +229,44 @@
     /* padding: 10px; 
     /* border-radius: 50%;
     box-shadow: ; */
+    font-family: 'roboto mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;                                /*   it was 48px */
+    line-height: 200%;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
 }
 .num-2{
     /* width: ; */
     max-width: 100%;
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    align-items: center;
+    font-family: 'roboto mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;                          /*   it was 48px */
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 29px #FA16BA !important;
 }
 .inner{
-    /* background-color: rgba(255, 255, 255, 0.08); */
+    
     background-image: linear-gradient(hsl(270, 7%, 28%), hsl(0, 0%, 0%)) !important; 
     width: 40%;
     margin-bottom: 5%; 
-    border-radius: 12px;
+    border-radius: 20px;                   /*   it was 32px */
     padding-top: 3%;
     padding-left: 2%;
+    font-family: 'roboto mono';
+    font-style: normal;
+    font-weight: 282;
+    font-size: 18px;                     /*   it was 20px */
+    line-height: 130%;
+    color: #FFFFFF;
 }
 @media screen and (max-width: 991px){
     .inner{
