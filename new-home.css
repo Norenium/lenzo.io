@@ -192,8 +192,6 @@
     border-bottom: #000000;
     display: flex;
     justify-content: end;
-    /* padding-top: 70px; */
-    /* padding-top: 10%; */
     padding-top: 5.6vw;
     
 }
@@ -203,7 +201,7 @@
     left: -10vw;
     display: flex;
     align-items: center;
-    /* margin-bottom: 5.8vw; */
+    margin-bottom: 5.8vw; 
 }
 .outer-right{
     position: relative;
@@ -251,10 +249,10 @@
     }
     
     .right{
-         padding-top: 15%;
+         padding-top: 14%;
     }
     .outer-left{
-        margin-bottom: 7vw;
+        margin-bottom: 15%;
     }
 }
 .last{
