@@ -280,6 +280,10 @@
     .outer-left{
         margin-bottom: 15%;
     }
+    .num-1,
+    .num-2{
+        font-size: 20px
+    }
 }
 .last{
     border-top: #000000;
