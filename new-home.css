@@ -229,9 +229,9 @@
     /* padding: 10px; 
     /* border-radius: 50%;
     box-shadow: ; */
-    font-family: 'roboto mono';
+    font-family: 'roboto-mono-bold-700';
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 28px;                                /*   it was 48px */
     line-height: 200%;
     text-align: center;
@@ -243,9 +243,9 @@
     max-width: 100%;
     display: flex;
     align-items: center;
-    font-family: 'roboto mono';
+    font-family: 'roboto-mono-bold-700';
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 28px;                          /*   it was 48px */
     line-height: 130%;
     text-align: center;
@@ -255,16 +255,16 @@
 }
 .inner{
     
-    background-image: linear-gradient(hsl(270, 7%, 28%), hsl(0, 0%, 0%)) !important; 
+    background-image: linear-gradient(hsl(280, 2%, 24%), hsl(0, 0%, 0%)) !important; 
     width: 40%;
     margin-bottom: 5%; 
     border-radius: 20px;                   /*   it was 32px */
     padding-top: 3%;
     padding-left: 2%;
-    font-family: 'roboto mono';
+    font-family: 'roboto-mono-extra-light-200'; 
     font-style: normal;
     font-weight: 282;
-    font-size: 18px;                     /*   it was 20px */
+    font-size: 16px;                     /*   it was 20px */
     line-height: 130%;
     color: #FFFFFF;
 }
