@@ -50,3 +50,21 @@
       src: url("../fonts/jura/Jura-Regular.ttf");
       formar: ttf;
 }
+
+@font-face {
+      font-family: roboto-mono-bold-700;
+      src: url("../fonts/roboto-mono/static/RobotoMono-Bold.ttf");
+      formar: ttf;
+}
+
+@font-face {
+      font-family: roboto-mono-light-300;
+      src: url("../fonts/roboto-mono/static/RobotoMono-Light.ttf");
+      formar: ttf;
+}
+
+@font-face {
+      font-family: roboto-mono-extra-light-200;
+      src: url("../fonts/roboto-mono/static/RobotoMono-ExtraLight.ttf");
+      formar: ttf;
+}
