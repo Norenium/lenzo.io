@@ -252,6 +252,11 @@
     color: #FFFFFF;
     text-shadow: 0px 4px 29px #FA16BA !important;
 }
+@media screen and (max-width: 930px){
+.date{
+    width: 60%;
+}
+}
 .inner{
     
     background-image: linear-gradient(hsl(280, 2%, 24%), hsl(0, 0%, 0%)) !important; 
