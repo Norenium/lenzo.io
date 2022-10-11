@@ -86,7 +86,6 @@
 
 /* financial section */
 
-
 .Finacial-card-fram{
     /* background: linear-gradient (180deg, #313131 0%, #000000 100%,); 
     backdrop-filter: blur(25px) ; */
@@ -137,7 +136,7 @@
       font-weight: 900;
       font-size: 40px;                      /*   it was 48px */
       line-height: 158.16%;
-      letter-spacing: 0.035em;
+      letter-spacing: -0.035em;
       color: #FFFFFF;
   }
 .Finacial-card-text p{
