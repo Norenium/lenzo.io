@@ -218,14 +218,14 @@
     position: absolute;
     display: flex;
     justify-content: space-between; 
-    /* width: ;  */
+    width: 300px;  
     max-width: 100%;
 } 
 .num-1{
-    /* width: ;  */
+    width: 31%;  
     max-width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     /* padding: 10px; 
     /* border-radius: 50%;
     box-shadow: ; */
@@ -239,7 +239,6 @@
     color: #FFFFFF;
 }
 .num-2{
-    /* width: ; */
     max-width: 100%;
     display: flex;
     align-items: center;
