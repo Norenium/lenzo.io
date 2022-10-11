@@ -48,14 +48,15 @@
    .bx-nav {
          font-size: 24px;
    }
-
-   /* ===== Phone Nav bar ===== */
-
    .nav-head-item:hover,
    .nav-head-item:focus {
          background-color: rgb(42, 208, 210, 0.2);
          cursor: pointer;
    }
+
+
+   /* ===== Phone Nav bar ===== */
+
 
    .nav-logo-phone {
          width: 50%;
